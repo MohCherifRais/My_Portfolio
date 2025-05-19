@@ -14,7 +14,7 @@ jobs:
        
    - name: install dependencies
      run: 
-       py -m pip install --upgrade pip
+       python -m pip install --upgrade pip
        pip install pyyaml
        
    - name: Run Feed Generator
